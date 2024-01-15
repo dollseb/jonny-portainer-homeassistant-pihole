@@ -11,5 +11,5 @@ services:
       - "./pihole:/etc/pihole"
       - "./dnsmasq.d:/etc/dnsmasq.d"
     environment:
-      TZ: "Europe/Berline"
+      TZ: "Europe/Berlin"
     restart: unless-stopped
