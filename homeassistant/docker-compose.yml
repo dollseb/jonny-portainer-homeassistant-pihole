@@ -12,3 +12,4 @@ services:
     network_mode: host
     environment:
       - TZ=Europe/Berlin
+      - DISABLE_JEMALLOC=true
