@@ -1,6 +1,6 @@
 version: "3"
 services:
-  pi-homeassistant:
+  pi5-homeassistant:
     container_name: homeassistant
     image: "ghcr.io/home-assistant/home-assistant:stable"
     volumes:
